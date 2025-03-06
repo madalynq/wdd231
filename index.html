@@ -1,12 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Course Home Page</title>
+    <meta name="author" content="Madalyn Querubin">
+    <meta name="description" content="WDD231 - Web Frontend Development - Course Home Page">  
     <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Luckiest+Guy&family=Protest+Revolution&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <img src="images/profile.jpg" alt="profile" loading="lazy"><span>Madalyn Querubin</span>
+    </header>
+    <nav>
+        <a id="menu" href="#"></a>
+        <ul class="navigation">
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="#" id="commerce">Chamber of Commerce</a></li>
+            <li><a href="https://github.com/madalynq" id="github">GitHub</a></li>
+            <li><a href="https://www.linkedin.com" id="linkedin">LinkedIn</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <h2>Course Work</h2>
+        </section>
+        <section>
+            <h2>Meridian, Idaho</h2>
+        </section>
+        <section>
+            <h2>Web and Computer Programming Certificate</h2>
+        </section>
+    </main>
+    <footer>
+        <p>| &copy; <span id="currentyear"></span> | Madalyn Querubin | Idaho, USA</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>
+
+<!-- This is an HTML comment -->
