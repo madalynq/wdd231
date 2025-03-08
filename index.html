@@ -17,8 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Luckiest+Guy&family=Protest+Revolution&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="images/profile.jpg" alt="profile" loading="lazy"><span>Madalyn Querubin</span>
+    <header class="head-content">
+        <img src="images/profile.jpg" alt="profile" loading="lazy">
+        <span>Madalyn Querubin</span>
     </header>
     <nav>
         <a id="menu" href="#"></a>
@@ -33,18 +34,29 @@
         <h1>Home</h1>
         <section class="card">
             <h2>Course Work</h2>
-                <ol>
+                <ul>
                     <li></li>
                     <li></li>
                     <li></li>
-                </ol>
+                </ul>
         </section>
         <section class="card">
             <h2>Meridian, Idaho</h2>
-            <img src="" alt="">
+            <img src="images/idaho.webp" alt="idaho-map" width="400" height="250">
+            <p>Idaho Map</p>
         </section class="card">
-        <section class="card">
+        <section id="certificates" class="card">
             <h2>Web and Computer Programming Certificate</h2>
+            <nav class="course-nav">
+                <ul>
+                    <li><a href="#" id="all">All</a></li>
+                    <li><a href="#" id="cse">CSE</a></li>
+                    <li><a href="#" id="wdd">WDD</a></li>
+                </ul>
+            </nav>
+            <p>Total Credits: <span id="total-credits">0</span></p>
+            <div class="certs"></div>
+            
         </section>
     </main>
     <footer>

@@ -77,3 +77,43 @@ const courses = [
         completed: false
     }
 ]
+
+function createCoursesButton(filteredCourses) {
+    let container = document.querySelector(".certs");
+    let totalCreditsElement = document.querySelector("#total-credits");
+  
+    container.innerHTML = "";
+  
+    filteredCourses.forEach(course => {
+      let button = document.createElement("button");
+      button.textContent = `${course.subject} ${course.number} - ${course.title}`;
+      button.classList.add("course-button");
+      container.appendChild(button);
+    });
+
+    let totalCredits = filteredCourses.reduce((sum, course) => sum + course.credits, 0);
+    totalCreditsElement.textContent = totalCredits;
+  }
+  
+  createCoursesButton(courses);
+  
+  const allLink = document.querySelector("#all")
+  const cseLink = document.querySelector("#cse")
+  const wddLink = document.querySelector("#wdd")
+  
+  allLink.addEventListener("click", (event) => {
+    event.preventDefault();
+    createCoursesButton(courses);
+  });
+  
+  cseLink.addEventListener("click", (event) => {
+    event.preventDefault();
+    const cseCourses = courses.filter(course => course.subject === "CSE");
+    createCoursesButton(cseCourses);
+  });
+  
+  wddLink.addEventListener("click", (event) => {
+    event.preventDefault();
+    const wddCourses = courses.filter(course => course.subject === "WDD");
+    createCoursesButton(wddCourses);
+  });
