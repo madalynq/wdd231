@@ -86,7 +86,8 @@ function createCoursesButton(filteredCourses) {
   
     filteredCourses.forEach(course => {
       let button = document.createElement("button");
-      button.textContent = `${course.subject} ${course.number} - ${course.title}`;
+      button.innerHTML = `${course.subject} ${course.number} - ${course.title} ${course.completed ? '✔️' : ''}`;
+      button.classList.add(course.completed ? "complete" : "incomplete");
       button.classList.add("course-button");
       container.appendChild(button);
     });

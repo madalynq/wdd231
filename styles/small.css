@@ -206,6 +206,15 @@ main {
     font-family: Shadows Into Light Two, Helvetica, sans-serif;
 }
 
+.complete {
+    background-color: var(--Thistle);
+    content: ✔️;
+}
+
+.incomplete {
+    background-color: var(--Powder-Blue);
+}
+
 footer {
     font-family: Shadows Into Light Two, Helvetica, sans-serif;
     background: var(--Russian-Violet);
