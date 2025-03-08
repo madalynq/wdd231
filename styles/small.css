@@ -47,12 +47,6 @@ header {
 	content: "≡";
 }
 
-/* .navigation {
-	list-style: none;
-	margin: 0 auto;
-	max-width: 760px;
-} */
-
 nav {
     background-color: var(--Russian-Violet);
     font-family: Shadows Into Light Two, Helvetica, sans-serif;
@@ -105,13 +99,6 @@ h2 {
     padding-left: 8px;
 }
 
-h3 {
-    font-family: Caveat, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: underline;
-    text-align: center;
-    font-size: 25px;
-}
-
 header img {
     max-width: 150px;
     height: auto;
@@ -120,8 +107,7 @@ header img {
 
 .card img {
     max-width: 100%;
-    height: auto;
-    
+    height: auto;   
 }
 
 #idaho img {
@@ -135,11 +121,6 @@ main {
     max-width: 100%;    
 }
 
-/* hr {
-    width: 75%;
-    margin: 0 auto;
-
-} */
 .card,
 .course-nav a {
     border: 2px solid black;
@@ -179,8 +160,6 @@ main {
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
-    
-    
 }
 .course-nav a {
     text-decoration: none;
@@ -208,7 +187,6 @@ main {
 
 .complete {
     background-color: var(--Thistle);
-    content: ✔️;
 }
 
 .incomplete {
