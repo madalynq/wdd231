@@ -18,15 +18,14 @@ header {
     background-color: var(--Russian-Violet);
     color: #eee;
     text-align: center;
+    font-family: Shadows Into Light Two, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 88px;
 }
 
-h1 {
-    padding: 1rem 1rem 3rem;
-    font-family: Caveat, 'Arial Narrow', Arial, sans-serif;
-    
+span {
+    align-items: center;
 }
-
-
 #menu {
 	display: block;
 	font-size: 2rem;
@@ -65,7 +64,7 @@ h1 {
 }
 
 .navigation a:hover,
-navigation a:active {
+.navigation a:active {
 	color: white;
 	background-color: black;
 }
@@ -77,6 +76,13 @@ navigation a:active {
 #menu.show::before {
 	content: "X";
 }
+
+h1 {
+    padding: 1rem 1rem 3rem;
+    font-family: Caveat, 'Arial Narrow', Arial, sans-serif;
+    
+}
+
 h2 {
     font-family: Caveat, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: xx-large;
@@ -92,7 +98,7 @@ h3 {
 }
 
 img {
-    max-width: 200px;
+    max-width: 150px;
     height:auto;
     padding: 20px;
 }
@@ -123,9 +129,6 @@ hr {
     
 }
 
-.profile-image {
-    float: right;
-}
 
 .spud-image {
     float: left;
