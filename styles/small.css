@@ -75,7 +75,9 @@ nav {
 }
 
 .navigation a:hover,
-.navigation a:active {
+.navigation a:active,
+.course-nav a:hover,
+.course-nav a:active {
 	color: var(--Thistle);
 	background-color: black;
 }
@@ -91,7 +93,8 @@ nav {
 h1 {
     font-family: Caveat, 'Arial Narrow', Arial, sans-serif;
     margin-block: 0.67em;
-    font-size: 2em;
+    font-size: 3em;
+    padding-left: 1em;
 }
 
 h2 {
@@ -116,14 +119,21 @@ header img {
 }
 
 .card img {
-    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+#idaho img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
 main {
     padding: 10px;
     max-width: 100%;    
 }
-
 
 /* hr {
     width: 75%;
@@ -157,20 +167,33 @@ main {
     font-size: 20px;
 }
 
+.course-nav ul {
+    display: flex;
+    justify-content: center; 
+    padding: 0;
+}
+
 .course-nav li {
     list-style: none;
     display: inline-block;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10px;
+    
+    
 }
 .course-nav a {
-    text-decoration: none; 
+    text-decoration: none;
+    background-color: var(--Russian-Violet);
+    color: #eee; 
+    padding: 12px;
 }
 
-/* .certs {
+.certs {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-} */
+}
 
 .course-button {
     border: 2px solid black;
@@ -180,6 +203,7 @@ main {
     font-size: 20px;
     margin: 10px;
     background-color: var(--Powder-Blue);
+    font-family: Shadows Into Light Two, Helvetica, sans-serif;
 }
 
 footer {
