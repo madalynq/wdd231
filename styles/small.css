@@ -74,6 +74,13 @@ nav {
 	background-color: black;
 }
 
+.navigation a.active {
+    background-color: var(--Delft-Blue); /* Highlight color */
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid var(--Thistle);
+}
+
 .show li {
 	display: block;
 }
