@@ -156,18 +156,18 @@ main {
     padding: 0;
 }
 
+.course-nav a {
+    text-decoration: none;
+    background-color: var(--Russian-Violet);
+    color: #eee; 
+    padding: 12px;
+}
 .course-nav li {
     list-style: none;
     display: inline-block;
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
-}
-.course-nav a {
-    text-decoration: none;
-    background-color: var(--Russian-Violet);
-    color: #eee; 
-    padding: 12px;
 }
 
 .certs {
@@ -202,4 +202,11 @@ footer {
     text-align: center;
     color: #fff;
     text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .course-nav ul {
+        flex-direction: column; /* Stacks buttons in smaller screens */
+        align-items: center;
+    }
 }
