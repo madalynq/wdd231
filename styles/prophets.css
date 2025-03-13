@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+    --Dark-Purple: rgb(23, 17, 35);
+    --Russian-Violet: rgb(55, 34, 72);
+    --Delft-Blue: rgb(65, 71, 112);
+    --Powder-Blue: rgb(160, 185, 207);
+    --Thistle: rgb(226, 207, 234);
+
+}
+
+header {
+    background-color: var(--Russian-Violet);
+    color: #eee;
+    text-align: center;
+    font-family: Shadows Into Light Two, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+main {
+    display: grid;
+}
+section {
+    border: solid 3px;
+    border-radius: 10px;
+    margin:10px;
+    padding:10px;
+    align-items: center;
+}
+
+footer {
+    font-family: Shadows Into Light Two, Helvetica, sans-serif;
+    background: var(--Russian-Violet);
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}

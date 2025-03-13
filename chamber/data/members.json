@@ -1,0 +1,67 @@
+[
+    {
+        "name" : "Meridian Bowling Lanes",
+        "address" : "342 S Meridian Road, Meridian, ID 83642",
+        "phone number" : "(208) 888-2048",
+        "website" :  "https://meridianbowlinglanes.com/",
+        "imageurl" : "https://meridianbowlinglanes.com/wp-content/uploads/sites/250/2021/07/cropped-MBL-Logo-1024x725.png",
+        "membership level" : 2
+    },
+    {
+        "name" : "Elite Chiropractic and Rehab",
+        "address" : "135 E Calderwood Dr Suite 110, Meridian, ID 83642",
+        "phone number" : "(209)844-0475",
+        "website" :  "https://elitechiroandrehab.com/",
+        "imageurl" : "https://4071763104.nxcli.io/wp-content/uploads/2019/12/Elite_chiropractic_2.png",
+        "membership level" : 1
+    },
+    {
+        "name" : "Murphy Law Office, PLLC",
+        "address" : "847 E. Fairview Avenue, Meridian, ID 83642",
+        "phone number" : "(208) 855-2200",
+        "website" :  "https://www.murphylawoffice.com/",
+        "imageurl" : "https://lirp.cdn-website.com/4abef5361ef04442a3dfd363b3e6e82e/dms3rep/multi/opt/189-663w.jpg",
+        "membership level" : 1
+    },
+    {
+        "name" : "Patriot Ammo / Bulk Ammo Outlet",
+        "address" : "",
+        "phone number" : "2089149874",
+        "website" :  "",
+        "image" : "",
+        "membership level" : ""
+    },
+    {
+        "name" : "",
+        "address" : "",
+        "phone number" : "2089718521",
+        "website" :  "",
+        "image" : "",
+        "membership level" : ""
+    },
+    {
+        "name" : "",
+        "address" : "",
+        "phone number" : "2098619587",
+        "website" :  "",
+        "image" : "",
+        "membership level" : ""
+    },
+    {
+        "name" : "",
+        "address" : "",
+        "phone number" : "2093632119",
+        "website" :  "",
+        "image" : "",
+        "membership level" : ""
+    },
+    {
+        "name" : "",
+        "address" : "",
+        "phone number" : "2098889154",
+        "website" :  "",
+        "image" : "",
+        "membership level" : ""
+    }
+
+]
