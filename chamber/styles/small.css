@@ -27,17 +27,105 @@ header {
     align-items: center;
 }
 
+.menu {
+	margin: 1rem auto;
+	border-radius: 8px;
+	padding: 0.5rem;
+	/* background-color: var(--Powder-Blue); */
+	text-align: center;
+}
+
+.menu button {
+    border-radius: 8px;
+	padding: 1rem;
+	font-weight: 700;
+    font-family: Shadows Into Light Two, Helvetica, sans-serif;
+}
+
+.menu button:hover {
+    background-color: var(--Thistle);
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+	gap: 10px;
+	justify-content: center;
+    
+}
+
+.card {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    place-items: center;
+}
+
 .member-card {
     text-align: center;
     border: 2px solid black;
     border-radius: 8px;
-    padding: 1rem;
     margin: 1rem;
     background-color: var(--Thistle);
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1); 
+    width: 450px;
+    height: 475px;
+}
+
+.member-card h2 {
+    font-family: Cinzel, Calibri, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 10px;
+    background-color: var(--Delft-Blue);
+    
+}
+
+.member-card img {
+    width: 400px;
+    height: 250px;
+    padding: 5px;
+}
+
+.member-card p {
+    font-family: Cinzel, Calibri, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 2px;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list .member-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: auto;
+    height: 150px;
+}
+
+
+.list .member-card > * {
+	margin: 0 1rem;
+}
+
+.list .member-card img {
+	display: none; /* smaller viewports only */
+}
+
+.list section:nth-child(even) {
+	background-color: var(--Powder-Blue);
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     font-family: Shadows Into Light Two, Helvetica, sans-serif;
     background: var(--Russian-Violet);
     padding: 2rem;
@@ -46,8 +134,20 @@ footer {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 39.99em) {
-    #cards {
+/* @media only screen and (max-width: 20em) {
+    .member-card {
         grid-template-columns: 1fr;
+    }
+} */
+
+@media only screen and (min-width: 40em) { 
+    .member-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} 
+
+@media only screen and (min-width: 64em) {
+    .member-card {
+        grid-template-columns: repeat(3, 1fr);
     }
 }

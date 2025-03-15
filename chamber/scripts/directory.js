@@ -1,14 +1,20 @@
 const url = "data/members.json";
 
-const cards = document.querySelector('.card');
+const cards = document.querySelector('article');
+
+let membersData = [];
+let isGridView = true;
 
 async function getMembers() {
     const response = await fetch(url);
     const data = await response.json();
-    displayMembers(data.members);
+    membersData = data.members;
+    displayMembers(membersData);
 }
 
 const displayMembers = (members) => {
+    cards.innerHTML = "";
+
     members.forEach((member) => {
         let card = document.createElement('section');
         let name = document.createElement('h2');
@@ -21,9 +27,15 @@ const displayMembers = (members) => {
         name.textContent = member.name;
         address.textContent = member.address;
         phone.textContent = member.phone;
-        website.innerHTML = `<a href="${member.website}" target="_blank">${member.website}</a>`;
         membership.textContent = `Membership Level: ${member.membership}`;
 
+        if (isGridView) {
+            website.innerHTML = `<a href="${member.website}" target="_blank">View Website</a>`;
+        } else {
+            website.innerHTML = `<a href="${member.website}" target="_blank">${member.website}</a>`
+        }
+
+        website.style.textDecoration = "none";
         card.setAttribute('class', 'member-card');
         pic.setAttribute('src', member.imageurl);
         pic.setAttribute('alt', `${member.name} image`);
@@ -35,11 +47,25 @@ const displayMembers = (members) => {
         card.appendChild(pic);
         card.appendChild(address);
         card.appendChild(phone);
-        card.appendChild(website);
         card.appendChild(membership);
+        card.appendChild(website);
 
         cards.appendChild(card);
 
     });
 }
 getMembers();
+
+document.getElementById("grid").addEventListener("click", () => {
+    isGridView = true;
+    document.querySelector("article").classList.remove("list");
+    document.querySelector("article").classList.add("grid");
+    displayMembers(membersData); // Re-render members in grid view
+});
+
+document.getElementById("list").addEventListener("click", () => {
+    isGridView = false;
+    document.querySelector("article").classList.remove("grid");
+    document.querySelector("article").classList.add("list");
+    displayMembers(membersData); // Re-render members in list view
+});

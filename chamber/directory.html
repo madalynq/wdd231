@@ -8,12 +8,11 @@
     <meta name="description" content="WDD231 - Web Fontend Development - Chambers Directory">
     <link href="styles/normalize.css" rel="stylesheet">
     <link href="styles/small.css" rel="stylesheet">
-    <link href="styles/larger.css" rel="stylesheet">
     <script src="scripts/date.js" defer></script>
     <script src="scripts/directory.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Luckiest+Guy&family=Protest+Revolution&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="WDD231 Chambers of Commerce Directory">
     <meta property="og:type" content="website">
@@ -30,34 +29,38 @@
         <nav>
             <a id="menu" href="#" aria-label="navigation menu"></a>
             <ul class="navigation">
-                <li><a href="index.html" id="home">Home</a></li>
-                <li><a href="directory.html" id="directory">Directory</a></li>
-                <li><a href="#" id="join">Join</a></li>
-                <li><a href="#" id="discover">Discover</a></li>
+                <li><a href="index.html" id="home" target="_blank">Home</a></li>
+                <li><a href="directory.html" id="directory" target="_blank">Directory</a></li>
+                <li><a href="#" id="join" target="_blank">Join</a></li>
+                <li><a href="#" id="discover" target="_blank">Discover</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Directory</h1>
-        <section>
-         <nav class="filter">
-                <ul>
-                    <li><a href="#" id="grid">Grid</a></li>
-                    <li><a href="#" id="list">List</a></li>
-                </ul>
-            </nav>
-        </section>
-        <section class="card">
-           
-        </section>
+        <h1> Business Directory</h1>
+        <div class="menu">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
+        </div>
+        <article class="grid">
+        </article>
     </main>
     <footer>
-        <p class="bold">Meridian Chamber of Commerce</p>
-        <p>120 Main St</p>
-        <p>Meridian Idaho 83646</p>
-        <p>(208)246-6868</p>
-        <p>| &copy; <span id="currentyear"></span> | Madalyn Querubin | Idaho, USA</p>
-        <p><span id="lastModified"></span></p>
+        <div class="contact">
+            <p class="bold">Meridian Chamber of Commerce</p>
+            <p>120 Main St</p>
+            <p>Meridian Idaho 83646</p>
+            <p>(208)246-6868</p>
+        </div>
+        <div class="socials">
+            <a href="https/www.youtube.com" target="_blank"><img src="images/youtube.png" alt="youtube" loading="lazy" width="40" height="40"></a>
+            <a href="https/www.instagram.com" target="_blank"><img src="images/insta.png" alt="instagram" loading="lazy" width="40" height="40"></a>
+            <a href="https/www.tiktok.com" target="_blank"><img src="images/tiktok.png" alt="tiktok" loading="lazy" width="40" height="40"></a>
+        </div>
+        <div class="trademark">
+            <p>| &copy; <span id="currentyear"></span> | Madalyn Querubin | Idaho, USA</p>
+            <p><span id="lastModified"></span></p>
+        </div>
     </footer>
     
 </body>
