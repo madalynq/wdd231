@@ -17,51 +17,52 @@
     },
     {
         "name" : "Murphy Law Office, PLLC",
-        "address" : "847 E. Fairview Avenue, Meridian, ID 83642",
+        "address" : "847 E Fairview Avenue, Meridian, ID 83642",
         "phone number" : "(208) 855-2200",
         "website" :  "https://www.murphylawoffice.com/",
         "imageurl" : "https://lirp.cdn-website.com/4abef5361ef04442a3dfd363b3e6e82e/dms3rep/multi/opt/189-663w.jpg",
         "membership level" : 1
     },
     {
-        "name" : "Patriot Ammo / Bulk Ammo Outlet",
-        "address" : "",
-        "phone number" : "2089149874",
-        "website" :  "",
-        "image" : "",
-        "membership level" : ""
+        "name" : "Meridian Plumbing Co.",
+        "address" : "480 E Franklin Rd, Ste 100, Meridian, ID 83642",
+        "phone number" : "(208) 914-5793",
+        "website" :  "https://meridian-plumbing.com/",
+        "image" : "https://meridian-plumbing.com/wp-content/uploads/2023/06/MP_Logo_TextHorizontal_OnLight-2048x518.png",
+        "membership level" : 1
     },
     {
-        "name" : "",
-        "address" : "",
-        "phone number" : "2089718521",
-        "website" :  "",
-        "image" : "",
-        "membership level" : ""
+        "name" : "Children's Museum of Idaho",
+        "address" : "790 S Progress Avenue, Meridian, ID 83642",
+        "phone number" : "(208) 515-0122",
+        "website" :  "https://www.cmidaho.org/",
+        "image" : "https://www.cmidaho.org/sites/default/files/955da606-74cd-4158-8b02-cf54eae8ace6-TICKET.hs_file_upload-CMI-Logo-Stacked-Transparent.jpg",
+        "membership level" : 2
     },
     {
-        "name" : "",
-        "address" : "",
-        "phone number" : "2098619587",
-        "website" :  "",
-        "image" : "",
-        "membership level" : ""
+        "name" : "Stella's",
+        "address" : "1492 N Webb Wy Suite 150, Meridian, ID 83642",
+        "phone number" : "(208) 229-4760",
+        "website" :  "https://www.stellasicecream.com/north-meridian/",
+        "image" : "https://i0.wp.com/www.stellasicecream.com/wp-content/uploads/2020/09/cropped-Screen-Shot-2020-09-22-at-6.39.37-PM.png?fit=940%2C396&ssl=1",
+        "membership level" : 1
     },
     {
-        "name" : "",
-        "address" : "",
+        "name" : "SISU Sauna and Cold Plunge",
+        "address" : "1181 S Silverstone Way Ste 140, Meridian, ID 83642",
         "phone number" : "2093632119",
-        "website" :  "",
-        "image" : "",
-        "membership level" : ""
+        "website" :  "https://www.sisuidaho.com/",
+        "image" : "https://www.sisuidaho.com/wp-content/uploads/2020/09/Logo-white.png",
+        "membership level" : 3
     },
     {
-        "name" : "",
-        "address" : "",
-        "phone number" : "2098889154",
-        "website" :  "",
-        "image" : "",
-        "membership level" : ""
+        "name" : "Big Al's",
+        "address" : "1900 N Eagle Road, Meridian, ID 83646",
+        "phone number" : "(208) 780-6118",
+        "website" :  "https://www.ilovebigals.com/meridian/",
+        "image" : "https://uploads.ilovebigals.com/2020/03/25175829/BA_logo_Flat_White.svg",
+        "membership level" : 1
+        
     }
 
 ]
