@@ -1,0 +1,48 @@
+@media only screen and (min-width: 40em) { 
+    .member-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    header {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; /* Vertically center items */
+        padding: 15px 20px;
+        background-color: var(--Russian-Violet);
+        height: 127px;
+    }
+    
+    #menu {
+        display: none;
+    }
+
+	.navigation {
+		display: flex;
+        align-items: center;
+        justify-content: flex-end;
+	}
+	.navigation li {
+		display: block; 
+		/* flex: 1 1 100%; */
+	}
+
+	.navigation a {
+		text-align: center;
+        color: #fff;
+        font-size: 26px;
+	}
+
+    h1 {
+        font-size: 46px;
+    }
+
+    nav {
+        justify-content: flex-end;
+    }
+} 
+
+@media only screen and (min-width: 64em) {
+    .member-card {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
