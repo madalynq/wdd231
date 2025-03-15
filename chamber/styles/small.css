@@ -27,6 +27,15 @@ header {
     align-items: center;
 }
 
+.member-card {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--Thistle);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1); 
+}
 
 footer {
     font-family: Shadows Into Light Two, Helvetica, sans-serif;
@@ -35,4 +44,10 @@ footer {
     text-align: center;
     color: #fff;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 39.99em) {
+    #cards {
+        grid-template-columns: 1fr;
+    }
 }

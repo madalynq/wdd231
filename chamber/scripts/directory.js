@@ -24,6 +24,7 @@ const displayMembers = (members) => {
         website.innerHTML = `<a href="${member.website}" target="_blank">${member.website}</a>`;
         membership.textContent = `Membership Level: ${member.membership}`;
 
+        card.setAttribute('class', 'member-card');
         pic.setAttribute('src', member.imageurl);
         pic.setAttribute('alt', `${member.name} image`);
         pic.setAttribute('loading', 'lazy');
@@ -31,10 +32,10 @@ const displayMembers = (members) => {
         pic.setAttribute('height', '250')
 
         card.appendChild(name);
+        card.appendChild(pic);
         card.appendChild(address);
         card.appendChild(phone);
         card.appendChild(website);
-        card.appendChild(pic);
         card.appendChild(membership);
 
         cards.appendChild(card);
