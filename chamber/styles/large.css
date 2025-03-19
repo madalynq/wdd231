@@ -3,6 +3,10 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .head-content {
+        flex-direction: unset;
+    }
+
     header {
         display: flex; 
         justify-content: space-between; 
