@@ -2,20 +2,20 @@
     "members": [
 
         {
-            "name" : "Meridian Bowling Lanes",
-            "address" : "342 S Meridian Road, Meridian, ID 83642",
-            "phone number" : "(208) 888-2048",
-            "website" :  "https://meridianbowlinglanes.com/",
-            "imageurl" : "https://meridianbowlinglanes.com/wp-content/uploads/sites/250/2021/07/cropped-MBL-Logo-1024x725.png",
-            "membership level" : "Silver"
+            "name" : "Wahooz",
+            "address" : "1385 Blue Marlin Lane Meridian ID 83642",
+            "phone number" : "(208) 898-0900",
+            "website" :  "https://www.wahoozfunzone.com/",
+            "imageurl" : "https://www.wahoozfunzone.com/content/uploads/2020/05/wahooz-family-fun-zone-logo.png",
+            "membership" : "Silver"
         },
         {
-            "name" : "Elite Chiropractic and Rehab",
+            "name" : "Elite Chiropractic & Rehab",
             "address" : "135 E Calderwood Dr Suite 110, Meridian, ID 83642",
             "phone number" : "(209) 844-0475",
             "website" :  "https://elitechiroandrehab.com/",
             "imageurl" : "https://4071763104.nxcli.io/wp-content/uploads/2019/12/Elite_chiropractic_2.png",
-            "membership level" : "Member"
+            "membership" : "Member"
         },
         {
             "name" : "Murphy Law Office, PLLC",
@@ -23,7 +23,7 @@
             "phone number" : "(208) 855-2200",
             "website" :  "https://www.murphylawoffice.com/",
             "imageurl" : "https://lirp.cdn-website.com/4abef5361ef04442a3dfd363b3e6e82e/dms3rep/multi/opt/189-663w.jpg",
-            "membership level" : "Member"
+            "membership" : "Member"
         },
         {
             "name" : "Meridian Plumbing Co.",
@@ -31,7 +31,7 @@
             "phone number" : "(208) 914-5793",
             "website" :  "https://meridian-plumbing.com/",
             "imageurl" : "https://meridian-plumbing.com/wp-content/uploads/2023/06/MP_Logo_TextHorizontal_OnLight-2048x518.png",
-            "membership level" : "Member"
+            "membership" : "Member"
         },
         {
             "name" : "Children's Museum of Idaho",
@@ -39,7 +39,7 @@
             "phone number" : "(208) 515-0122",
             "website" :  "https://www.cmidaho.org/",
             "imageurl" : "https://www.cmidaho.org/sites/default/files/955da606-74cd-4158-8b02-cf54eae8ace6-TICKET.hs_file_upload-CMI-Logo-Stacked-Transparent.jpg",
-            "membership level" : "Silver"
+            "membership" : "Silver"
         },
         {
             "name" : "Stella's",
@@ -47,7 +47,7 @@
             "phone number" : "(208) 229-4760",
             "website" :  "https://www.stellasicecream.com/north-meridian/",
             "imageurl" : "https://i0.wp.com/www.stellasicecream.com/wp-content/uploads/2020/09/cropped-Screen-Shot-2020-09-22-at-6.39.37-PM.png?fit=940%2C396&ssl=1",
-            "membership level" : "Member"
+            "membership" : "Member"
         },
         {
             "name" : "Idaho Tents & Events",
@@ -55,7 +55,7 @@
             "phone number" : "(208) 336-5486",
             "website" :  "hhttps://www.boisepartyrentals.com/",
             "imageurl" : "https://i0.wp.com/boisepartyrentals.com/wp-content/uploads/2022/12/logo.webp",
-            "membership level" : "Gold"
+            "membership" : "Gold"
         },
         {
             "name" : "Roaring Springs Water Park",
@@ -63,7 +63,7 @@
             "phone number" : "(208) 884-8842",
             "website" :  "https://www.roaringsprings.com/",
             "imageurl" : "https://www.roaringsprings.com/content/uploads/2020/06/roaring-springs-water-park-logo.png",
-            "membership level" : "Member"
+            "membership" : "Member"
             
         }
     ]
