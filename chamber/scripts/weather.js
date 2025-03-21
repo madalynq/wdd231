@@ -11,14 +11,14 @@ const captionDesc = document.querySelector('figcaption');
 
 
 const myKey = "be4d345637ed47d542e6c75dde64fe18"
-const lat = "49.75"
-const lon = "6.64"
+const lat = "43.61"
+const lon = "-116.39"
 
-const url = `//api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${myKey}&units=imperial`
+const weatherUrl = `//api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${myKey}&units=imperial`
 
 async function apiFetch() {
     try {
-        const response = await fetch(url);
+        const response = await fetch(weatherUrl);
         if (response.ok) {
             const data = await response.json();
             console.log(data);
