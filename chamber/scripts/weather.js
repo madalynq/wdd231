@@ -3,13 +3,6 @@ const myDescription = document.querySelector('#description');
 const myTemperature = document.querySelector('#temperature');
 const myGraphic = document.querySelector('#graphic');
 
-
-const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
-
-
-
 const myKey = "be4d345637ed47d542e6c75dde64fe18"
 const lat = "43.61"
 const lon = "-116.39"

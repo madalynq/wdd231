@@ -13,6 +13,7 @@
     <script src="scripts/highlights.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/forecast.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
@@ -43,23 +44,28 @@
     </header>
     <main>
         <h1>Welcome to Meridian</h1>
-        <section class="hero">
+        <section id="hero">
             <img src="images/hero-image.webp" alt="hero-img" >
             <a href="">Join Today!</a>
         </section>
-        <section id="current-events">
+        <section id="current-events" class="box">
             <h2>Events</h2>
         </section>
-        <section id="weather">
+        <section id="weather" class="box">
             <h2>Current Weather</h2>
             <p id="town"></p>
             <img id="graphic" src="" alt="">
             <p id="description"></p>
             <p id="temperature"></p>
         </section>
-        <section id="forcast">
+        <section id="forcast" class="box">
             <h2>Weather Forecast</h2>
-
+            <p class="bold">Today:</p>
+            <p class="day1"></p>
+            <p class="bold">Tomorrow:</p>
+            <p class="day2"></p>
+            <p class="bold">Day After:</p>
+            <p class="day3"></p>
         </section>
         <article class="grid">
             <h2>Local Businesses</h2>
