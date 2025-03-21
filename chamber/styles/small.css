@@ -129,6 +129,16 @@ h1 {
     font-size: 45px;
 }
 
+.hero image {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.hero a {
+    position: fixed;
+}
+
 .grid {
     display: grid;
     margin: auto;
