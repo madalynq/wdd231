@@ -111,12 +111,17 @@ nav {
 	background-color: black;
 }
 
-.navigation a:active {
-    text-decoration: underline;
+.navigation a.active {
     color: var(--Powder-Blue);
-	background-color: black;
+    background-color: black;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
+.navigation a.active::before {
+    margin-right: 8px;
+    color: var(--Powder-Blue);
+}
 .show li {
 	display: block;
 }
@@ -133,11 +138,40 @@ h1 {
     height: auto;
 }
 
+.button {
+    text-align: center;
+    margin: 20px;
+}
+
+.button button {
+    background-color: var(--Thistle);
+    text-decoration: none;
+    color:#000;
+    padding: 16px;
+    font-family: Cinzel, Calibri, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    border: 2px solid var(--Dark-Purple);
+    border-radius: 8px;
+}
+
+.button button:hover {
+    color: var(--Powder-Blue);
+	background-color: black;
+    text-decoration: none;
+}
+
+.button a,
+.button a:active, 
+.button a:visited {
+    text-decoration: none;
+}
+
 .home {
     font-family: Shadows Into Light Two, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 40px; 
-    margin: 16px;
+    margin: 14px;
 
 }
  
@@ -247,8 +281,8 @@ h1 {
     }
 
     .socials img {
-        width: 30px;
-        height: 30px;
+        width: 45px;
+        height: 45px;
         margin-top: 10px;
         margin-bottom: 10px; 
     }
