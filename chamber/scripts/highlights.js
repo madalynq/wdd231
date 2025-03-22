@@ -6,7 +6,15 @@ async function getMembers() {
     const response = await fetch(url);
     const data = await response.json();
     membersData = data.members;
-    displayMembers(membersData.filter(member => member.membership === "Silver"));
+    const silver = membersData.filter(member => member.membership === "Silver");
+    const gold = membersData.filter(member => member.membership === "Gold");
+
+    const combined = [...silver, ...gold];
+    const shuffled = combined.sort(() => Math.random() - 0.5);
+
+    const selectedMembers = shuffled.slice(0, 3);
+
+    displayMembers(selectedMembers);
 }
 
 const displayMembers = (members) => {
