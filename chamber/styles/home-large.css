@@ -1,0 +1,134 @@
+@media only screen and (min-width: 20.01em) and (max-width: 39.99em) {
+    /* .head-content, .top {
+        grid-template-columns: 1fr 2fr;
+    } */
+
+    header img {
+        width: 150px;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .member-card {
+        width: 300px;
+        height: 500px;
+    }
+
+    .member-card h2 {
+        font-family: Cinzel, Calibri, sans-serif;
+        font-weight: bolder;
+        font-size: xx-large;
+        padding: 10px;
+        background-color: var(--Delft-Blue);
+        color: white;  
+    }
+
+    .member-card img {
+        width: 250px;
+        height: auto;
+        padding: 5px;
+        margin: 20px;
+    }
+
+    .member-card p {
+        font-family: Cinzel, Calibri, sans-serif;
+        font-size: larger;
+        font-weight: bolder;
+        padding: 2px;
+    }
+
+    footer {
+        grid-template-rows: 1fr 1fr 1fr;
+        font-family: Shadows Into Light Two, Helvetica, sans-serif;
+        font-size: large;
+        background: var(--Russian-Violet);
+        padding: 2rem;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+    }
+    .socials img {
+        width: 45px;
+        height: 45px;
+        margin-top: 10px;
+        margin-bottom: 10px; 
+    }
+}
+
+@media only screen and (min-width: 40em) { 
+    .head-content {
+        flex-direction: unset;
+    }
+
+    #menu {
+        display: none;
+    }
+
+	.navigation {
+		display: flex;
+        align-items: center;
+        justify-content: flex-end;
+	}
+	.navigation li {
+		display: block;
+	}
+
+	.navigation a {
+		text-align: center;
+        color: #fff;
+        font-size: 26px;
+	}
+
+    .navigation a:active {
+        text-decoration: underline;
+        color: var(--Powder-Blue);
+        background-color: black;
+    }
+
+    nav {
+        justify-content: flex-end;
+    }
+    
+    section {
+        display: grid;
+        /* grid-template-columns: 2fr 1fr 1fr; */
+    }
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        justify-items: center;
+    }
+
+    .member-card {
+        width: 350px;
+        height: 450px;
+        text-align: center;
+    }
+
+    .member-card img {
+        margin: 10px 70px ;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+        font-family: Shadows Into Light Two, Helvetica, sans-serif;
+        font-size: large;
+        background: var(--Russian-Violet);
+        padding: 2rem;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .bold {
+        font-weight: bolder;
+        padding-bottom: 10px;
+    }
+    
+    .trademark,
+    .socials {
+        padding-top: 30px;
+    }  
+} 
+

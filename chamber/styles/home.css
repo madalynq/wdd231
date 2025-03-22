@@ -1,0 +1,243 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+    --Dark-Purple: rgb(23, 17, 35);
+    --Russian-Violet: rgb(55, 34, 72);
+    --Delft-Blue: rgb(65, 71, 112);
+    --Powder-Blue: rgb(160, 185, 207);
+    --Thistle: rgb(226, 207, 234);
+
+}
+
+header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px 20px;
+    background-color: var(--Russian-Violet);
+}
+
+.head-content {
+    background-color: var(--Russian-Violet);
+    color: #eee;
+    text-align: center;
+    font-family: Shadows Into Light Two, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: x-large;
+    gap: 10px;
+}
+
+.head-content .top {
+    align-items: center;
+    text-align: left;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: var(--Russian-Violet);
+	color: #000;
+    position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+.menu {
+	margin: 1rem auto;
+	border-radius: 8px;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.menu button {
+    border-radius: 8px;
+	padding: 1rem;
+	font-weight: 700;
+    font-family: Shadows Into Light Two, Helvetica, sans-serif;
+}
+
+.menu button:hover {
+    background-color: var(--Thistle);
+}
+
+#menu::before {
+	content: "≡";
+    color: #fff;
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+nav {
+	background-color: var(--Russian-Violet);
+    font-family: Shadows Into Light Two, Helvetica, sans-serif;
+}
+
+.navigation {
+	list-style: none;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1.5rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover {
+	color: var(--Powder-Blue);
+	background-color: black;
+}
+
+.navigation a:active {
+    text-decoration: underline;
+    color: var(--Powder-Blue);
+	background-color: black;
+}
+
+.show li {
+	display: block;
+}
+
+h1 {
+    font-family: Shadows Into Light Two, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+}
+
+.home {
+    font-family: Shadows Into Light Two, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px; 
+    margin: 16px;
+
+}
+ 
+.box {
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 5px;
+    font-family: Shadows Into Light Two, Helvetica, sans-serif;
+    background-color:rgb(224, 215, 203);
+}
+
+.box h2 {
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 10px;
+    background-color: var(--Russian-Violet);
+    color: white;
+}
+
+.box p,
+#current-events li {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#weather {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;
+    justify-content: center;   
+}
+
+.member-card {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: var(--Thistle);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1); 
+    width: 250px;
+    height: 475px; 
+}
+
+.member-card h2 {
+    font-family: Cinzel, Calibri, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 10px;
+    background-color: var(--Delft-Blue);
+    color: white;
+} 
+ 
+.member-card img {
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    margin: 20px;
+} 
+
+.member-card p {
+    font-family: Cinzel, Calibri, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 2px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 20em) {
+    .head-content {
+        flex-direction: column;
+    }
+
+    header img {
+        width: 100px;
+        height: auto;
+        border-radius: 5px;
+    }
+  
+    footer {
+        grid-template-rows: 1fr 1fr 1fr;
+        font-family: Shadows Into Light Two, Helvetica, sans-serif;
+        font-size: large;
+        background: var(--Russian-Violet);
+        padding: 2rem;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .socials img {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px; 
+    }
+}
+    
