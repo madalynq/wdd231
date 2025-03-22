@@ -24,9 +24,9 @@ async function apiFetch() {
 }
 
 function displayAnswer(data) {
-    currentDay.innerHTML = `High: ${data.list[0].main.temp_max} &deg;F<br>Low: ${data.list[0].main.temp_min} &deg;F`
-    tomorrow.innerHTML = `High: ${data.list[1].main.temp_max} &deg;F<br>Low: ${data.list[1].main.temp_min} &deg;F`
-    dayAfter.innerHTML = `High: ${data.list[2].main.temp_max} &deg;F<br>Low: ${data.list[2].main.temp_min} &deg;F`
+    currentDay.innerHTML = `High: ${data.list[0].main.temp_max.toFixed(0)} &deg;F<br>Low: ${data.list[0].main.temp_min.toFixed(0)} &deg;F`
+    tomorrow.innerHTML = `High: ${data.list[1].main.temp_max.toFixed(0)} &deg;F<br>Low: ${data.list[1].main.temp_min.toFixed(0)} &deg;F`
+    dayAfter.innerHTML = `High: ${data.list[2].main.temp_max.toFixed(0)} &deg;F<br>Low: ${data.list[2].main.temp_min.toFixed(0)} &deg;F`
 }
 
 apiFetch();
