@@ -1,3 +1,58 @@
+@media only screen and (min-width: 20.01em) and (max-width: 39.99em) {
+    header img {
+        width: 150px;
+        height: auto;
+        border-radius: 5px; 
+    }
+
+    .member-card {
+        width: 300px;
+        height: 500px;
+    }
+
+    .member-card h2 {
+        font-family: Cinzel, Calibri, sans-serif;
+        font-weight: bolder;
+        font-size: xx-large;
+        padding: 10px;
+        background-color: var(--Delft-Blue);
+        color: white;
+    }
+
+    .member-card img {
+        width: 250px;
+        height: auto;
+        padding: 5px;
+        margin: 20px;
+    }
+
+    .member-card p {
+        font-family: Cinzel, Calibri, sans-serif;
+        font-size: larger;
+        font-weight: bolder;
+        padding: 2px;
+    }
+
+    footer {
+        grid-template-rows: 1fr 1fr 1fr;
+        font-family: Shadows Into Light Two, Helvetica, sans-serif;
+        font-size: large;
+        background: var(--Russian-Violet);
+        padding: 2rem;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .socials img {
+        width: 45px;
+        height: 45px;
+        margin-top: 10px;
+        margin-bottom: 10px; 
+    }  
+}
+
+
 @media only screen and (min-width: 40em) { 
     .head-content {
         flex-direction: unset;
@@ -12,9 +67,9 @@
         align-items: center;
         justify-content: flex-end;
 	}
+
 	.navigation li {
 		display: block; 
-		/* flex: 1 1 100%; */
 	}
 
 	.navigation a {
@@ -22,6 +77,12 @@
         color: #fff;
         font-size: 26px;
 	}
+
+    .navigation a:active {
+        text-decoration: underline;
+        color: var(--Powder-Blue);
+        background-color: black;
+    }
 
     nav {
         justify-content: flex-end;
@@ -32,7 +93,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: space-between;
         font-family: Shadows Into Light Two, Helvetica, sans-serif;
-        font-size: x-large;
+        font-size: large;
         background: var(--Russian-Violet);
         padding: 2rem;
         text-align: center;
@@ -51,9 +112,3 @@
     }
     
 } 
-
-/* @media only screen and (min-width: 64em) {
-    .member-card {
-        grid-template-columns: repeat(3, 1fr);
-    }
-} */
