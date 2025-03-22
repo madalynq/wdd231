@@ -163,8 +163,21 @@ h1 {
     padding: 10px;
 }
 
+#current-events li {
+    list-style-position: inside;
+}
+
 #weather {
     text-align: center;
+    font-weight: bold;
+}
+
+#weather #description {
+    text-transform: capitalize;
+}
+
+#weather #temperature {
+    font-size: xx-large;
 }
 
 .grid {

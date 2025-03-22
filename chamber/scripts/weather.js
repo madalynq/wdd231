@@ -27,7 +27,7 @@ async function apiFetch() {
 function displayResults(data) {
     myTown.innerHTML = data.name
     myDescription.innerHTML = data.weather[0].description
-    myTemperature.innerHTML = `${data.main.temp}&deg;F`
+    myTemperature.innerHTML = `${data.main.temp.toFixed(0)}&deg;F`
     const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
     myGraphic.setAttribute('SRC', iconsrc)
     myGraphic.setAttribute('alt', data.weather[0].description)
