@@ -118,3 +118,8 @@ function createCoursesButton(filteredCourses) {
     const wddCourses = courses.filter(course => course.subject === "WDD");
     createCoursesButton(wddCourses);
   });
+
+function displayDetails(courses) {
+    let closeModal = document.createElement("button");
+    closeModal.innerHTML
+}

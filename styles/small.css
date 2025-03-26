@@ -202,6 +202,28 @@ main {
     background-color: var(--Powder-Blue);
 }
 
+dialog {
+    border: 1px solid var(--Dark-Purple);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: var(--Thistle);
+    width: 80%;
+    box-shadow: 0 0 3rem var(--Russian-Violet);
+    max-width: 600px;
+}
+
+::backdrop {
+    background-color: var(--Delft-Blue, 0.5);
+}
+
+dialog button {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    padding: .5rem 1rem;
+    border: 1px solid var(--Dark-Purple);
+}
+
 footer {
     font-family: Shadows Into Light Two, Helvetica, sans-serif;
     background: var(--Russian-Violet);
