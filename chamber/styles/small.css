@@ -23,7 +23,7 @@ header {
     background-color: var(--Russian-Violet);
     color: #eee;
     text-align: center;
-    font-family: Shadows Into Light Two, Helvetica, sans-serif;
+    font-family: Happy Monkey, Helvetica, sans-serif;
     font-weight: bolder;
     display: flex;
     flex-direction: column;
@@ -64,7 +64,7 @@ header {
     border-radius: 8px;
 	padding: 1rem;
 	font-weight: 700;
-    font-family: Shadows Into Light Two, Helvetica, sans-serif;
+    font-family: Happy Monkey, Helvetica, sans-serif;
 }
 
 .menu button:hover {
@@ -83,7 +83,7 @@ header {
 
 nav {
 	background-color: var(--Russian-Violet);
-    font-family: Shadows Into Light Two, Helvetica, sans-serif;
+    font-family: Happy Monkey, Helvetica, sans-serif;
 }
 .navigation {
 	list-style: none;
@@ -126,7 +126,7 @@ nav {
 }
 
 h1 {
-    font-family: Shadows Into Light Two, Helvetica, sans-serif;
+    font-family: Happy Monkey, Helvetica, sans-serif;
     text-align: center;
     font-weight: bolder;
     font-size: 45px;
@@ -235,7 +235,7 @@ h1 {
 
     footer {
         grid-template-rows: 1fr 1fr 1fr;
-        font-family: Shadows Into Light Two, Helvetica, sans-serif;
+        font-family: Happy Monkey, Helvetica, sans-serif;
         font-size: large;
         background: var(--Russian-Violet);
         padding: 2rem;
