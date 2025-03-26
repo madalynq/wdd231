@@ -30,25 +30,16 @@
         font-family: Cinzel, Calibri, sans-serif;
         font-size: larger;
         font-weight: bolder;
-        padding: 2px;
+        padding: .5rem;
     }
 
     footer {
-        grid-template-rows: 1fr 1fr 1fr;
-        font-family: Shadows Into Light Two, Helvetica, sans-serif;
-        font-size: large;
-        background: var(--Russian-Violet);
-        padding: 2rem;
-        text-align: center;
-        color: #fff;
-        text-decoration: none;
+        flex-direction: column;
+        align-items: center;
     }
 
     .socials img {
-        width: 45px;
-        height: 45px;
-        margin-top: 10px;
-        margin-bottom: 10px; 
+       justify-content: center;
     }
 }
 
@@ -105,29 +96,6 @@
 
     .member-card img {
         margin: 10px 70px ;
-    }
-
-    footer {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: space-between;
-        font-family: Shadows Into Light Two, Helvetica, sans-serif;
-        font-size: large;
-        background: var(--Russian-Violet);
-        padding: 2rem;
-        text-align: center;
-        color: #fff;
-        text-decoration: none;
-    }
-    
-    .bold {
-        font-weight: bolder;
-        padding-bottom: 10px;
-    }
-    
-    .trademark,
-    .socials {
-        padding-top: 30px;
-    }  
+    } 
 } 
 
