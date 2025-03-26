@@ -238,6 +238,13 @@ h1 {
         height: auto;
         border-radius: 5px;
     }
+    
+    .member-card img {
+        width: 150px;
+        height: auto;
+        padding: 5px;
+        margin: 20px;
+    }
 
     footer {
         display: grid;
