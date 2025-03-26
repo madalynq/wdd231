@@ -134,8 +134,8 @@ h1 {
 
 .grid {
     display: grid;
-    margin: auto;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    /* margin: auto; */
+    /* grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); */
     gap: 10px;
     justify-content: center;
 
@@ -145,10 +145,10 @@ h1 {
     text-align: center;
     border: 2px solid black;
     border-radius: 8px;
-    margin: 1rem;
+    margin: 10px;
     background-color: var(--Thistle);
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1); 
-    width: 400px;
+    width: 250px;
     height: 475px;
 }
 

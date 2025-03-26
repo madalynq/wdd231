@@ -87,6 +87,21 @@
     nav {
         justify-content: flex-end;
     }
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        justify-items: center;
+    }
+
+    .member-card {
+        width: 400px;
+        height: 450px;
+        text-align: center;
+    }
+
+    .member-card img {
+        margin: 10px 70px ;
+    }
     
     footer {
         display: grid;
