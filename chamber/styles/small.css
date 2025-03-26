@@ -109,7 +109,7 @@ nav {
 	background-color: black;
 }
 
-.navigation a:active {
+.navigation a.active {
     color: var(--Powder-Blue);
     background-color: black;
     font-weight: bold;
@@ -182,10 +182,9 @@ h1 {
 .list {
     display: block;
     width: 100%;
-    margin-left: 10px;
     display: table;
-    width: 100%;
     border-collapse: collapse;
+    margin-right: 1rem;
 }
   
 .list .member-card {
@@ -194,6 +193,7 @@ h1 {
     background: none;
     box-shadow: none;
     padding: 0;
+    height: fit-content;
 }
   
 .list .member-card h2,
@@ -203,7 +203,6 @@ h1 {
     border: 1px solid rgba(0, 0, 0, 0.2);
     text-align: left;
     color: #000;
-    font-size: 1rem;
 }
   
 .list .member-card img {
