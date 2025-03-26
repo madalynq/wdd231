@@ -2,11 +2,11 @@
     "members": [
 
         {
-            "name" : "Wahooz",
-            "address" : "1385 Blue Marlin Lane Meridian ID 83642",
-            "phone number" : "(208) 898-0900",
-            "website" :  "https://www.wahoozfunzone.com/",
-            "imageurl" : "https://www.wahoozfunzone.com/content/uploads/2020/05/wahooz-family-fun-zone-logo.png",
+            "name" : "Jump Time Idaho LLC",
+            "address" : "2805 E Franklin Rd Meridian ID 83642",
+            "phone number" : "(208) 855-5867",
+            "website" :  "https://www.jumptimemeridian.com/",
+            "imageurl" : "https://www.jumptimemeridian.com/wp-content/uploads/2021/12/standard_Business-5679-08facd61d424f94018ccbc5070a0c1a4-cropped-Logo-Idaho-1.png",
             "membership" : "Silver"
         },
         {
@@ -34,11 +34,11 @@
             "membership" : "Member"
         },
         {
-            "name" : "Children's Museum of Idaho",
-            "address" : "790 S Progress Avenue, Meridian, ID 83642",
-            "phone number" : "(208) 515-0122",
-            "website" :  "https://www.cmidaho.org/",
-            "imageurl" : "https://www.cmidaho.org/sites/default/files/955da606-74cd-4158-8b02-cf54eae8ace6-TICKET.hs_file_upload-CMI-Logo-Stacked-Transparent.jpg",
+            "name" : "Meridian Speedway",
+            "address" : "335 S. Main Street Meridian ID 83642",
+            "phone number" : "(208) 888-2813",
+            "website" :  "https://www.meridianspeedway.com/",
+            "imageurl" : "https://dy5vgx5yyjho5.cloudfront.net/v1/siteresources/12212/v1/img/logo.png",
             "membership" : "Silver"
         },
         {
