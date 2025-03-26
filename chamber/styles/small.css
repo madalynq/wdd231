@@ -11,6 +11,7 @@
     --Thistle: rgb(226, 207, 234);
 }
 
+
 header {
     display: flex; 
     justify-content: space-between; 
@@ -23,7 +24,7 @@ header {
     background-color: var(--Russian-Violet);
     color: #eee;
     text-align: center;
-    font-family: Happy Monkey, Helvetica, sans-serif;
+    font-family: Happy Monkey, cursive, Helvetica, sans-serif;
     font-weight: bolder;
     display: flex;
     flex-direction: column;
@@ -64,7 +65,7 @@ header {
     border-radius: 8px;
 	padding: 1rem;
 	font-weight: 700;
-    font-family: Happy Monkey, Helvetica, sans-serif;
+    font-family: Happy Monkey, cursive, Helvetica, sans-serif;
 }
 
 .menu button:hover {
@@ -83,7 +84,7 @@ header {
 
 nav {
 	background-color: var(--Russian-Violet);
-    font-family: Happy Monkey, Helvetica, sans-serif;
+    font-family: Happy Monkey, cursive, Helvetica, sans-serif;
 }
 .navigation {
 	list-style: none;
@@ -126,7 +127,7 @@ nav {
 }
 
 h1 {
-    font-family: Happy Monkey, Helvetica, sans-serif;
+    font-family: Happy Monkey, cursive, Helvetica, sans-serif;
     text-align: center;
     font-weight: bolder;
     font-size: 45px;
@@ -222,6 +223,11 @@ h1 {
     background-color: var(--Powder-Blue);
 }
 
+#currentyear, #lastModified {
+    display: inline-block;
+    min-width: 50px; 
+}
+
 @media only screen and (max-width: 20em) {
     .head-content {
         flex-direction: column;
@@ -234,14 +240,20 @@ h1 {
     }
 
     footer {
+        display: grid;
         grid-template-rows: 1fr 1fr 1fr;
-        font-family: Happy Monkey, Helvetica, sans-serif;
+        font-family: Happy Monkey, cursive, Helvetica, sans-serif;
         font-size: large;
         background: var(--Russian-Violet);
         padding: 2rem;
         text-align: center;
         color: #fff;
         text-decoration: none;
+    }
+
+    .trademark,
+    .socials {
+        padding-top: 20px;
     }
 
     .socials img {

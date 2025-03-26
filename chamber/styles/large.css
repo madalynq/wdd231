@@ -35,7 +35,7 @@
 
     footer {
         grid-template-rows: 1fr 1fr 1fr;
-        font-family: Happy Monkey, Helvetica, sans-serif;
+        font-family: Happy Monkey, cursive, Helvetica, sans-serif;
         font-size: large;
         background: var(--Russian-Violet);
         padding: 2rem;
@@ -107,7 +107,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: space-between;
-        font-family: Happy Monkey, Helvetica, sans-serif;
+        font-family: Happy Monkey, cursive, Helvetica, sans-serif;
         font-size: large;
         background: var(--Russian-Violet);
         padding: 2rem;

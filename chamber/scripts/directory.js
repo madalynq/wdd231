@@ -41,7 +41,7 @@ const displayMembers = (members) => {
         pic.setAttribute('alt', `${member.name} image`);
         pic.setAttribute('loading', 'lazy');
         pic.setAttribute('width', '250');
-        pic.setAttribute('height', '450');
+        pic.setAttribute('height', '400');
 
         card.appendChild(name);
         card.appendChild(pic);
