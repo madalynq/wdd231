@@ -1,0 +1,18 @@
+*{box-sizing: border-box;}
+
+#openButton {
+    background-color: blueviolet;
+    color: white;
+}
+
+#dialogBox {
+    background-color: lavender;
+}
+
+#closeButton {
+    background-color: violet;
+}
+
+::backdrop {
+    background-color: rgba(1250, 80, 240, 0.5) ;
+}
