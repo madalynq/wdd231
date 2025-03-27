@@ -89,6 +89,10 @@ function createCoursesButton(filteredCourses) {
       button.innerHTML = `${course.subject} ${course.number} - ${course.title} ${course.completed ? '✔️' : ''}`;
       button.classList.add(course.completed ? "complete" : "incomplete");
       button.classList.add("course-button");
+
+      button.addEventListener("click", () => {
+        displayDetails(course);
+      })
       container.appendChild(button);
     });
 
@@ -120,20 +124,20 @@ function createCoursesButton(filteredCourses) {
   });
 
 function displayDetails(courses) {
-    let courseDetails = document.querySelector(".course-details");
-    courseDetails.innerHtml = '';
+    let courseDetails = document.querySelector("#course-details");
+    courseDetails.innerHTML = '';
     courseDetails.innerHTML = `
     <button id="closeModal">✖️</button>
     <h2>${courses.subject} ${courses.number}</h2>
     <h3>${courses.title}</h3>
     <p><strong>Credits</strong>: ${courses.credits}</p>
-    <p><strong>Certificate></strong>: ${courses.certificate}</p>
+    <p><strong>Certificate</strong>: ${courses.certificate}</p>
     <p>${courses.description}</p>
-    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+    <p><strong>Technologies</strong>: ${courses.technology.join(', ')}</p>
     `;
     courseDetails.showModal();
 
-    closeModal.addEventListener("click", () => {
+    document.querySelector("#closeModal").addEventListener("click", () => {
         courseDetails.close();
     });
 }    

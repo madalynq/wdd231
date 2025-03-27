@@ -210,10 +210,19 @@ dialog {
     width: 80%;
     box-shadow: 0 0 3rem var(--Russian-Violet);
     max-width: 600px;
+    position: fixed;
+    inset: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    font-family: Shadows Into Light Two, Helvetica, sans-serif;
+    padding: 10px; 
+    text-align: center; 
 }
 
 ::backdrop {
-    background-color: var(--Delft-Blue, 0.5);
+    background-color: rgba(65, 71, 112, 0.5);
 }
 
 dialog button {
