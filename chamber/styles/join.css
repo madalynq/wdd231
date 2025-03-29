@@ -13,6 +13,19 @@
     font-family: Cinzel, Calibri, sans-serif;
 }
 
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  grid-column: span 2;
+}
+
+h2 {
+  text-align: center;
+}
+
 html {
   -webkit-text-size-adjust: 100%; 
   -ms-text-size-adjust: 100%;
@@ -20,13 +33,17 @@ html {
 
 
 form {
+  border: 2px solid var(--Dark-Purple);
+  border-radius: 8px;
   margin: 1rem 2%;
+  padding: 10px;
+  background-color: var(--Thistle);
 }  
 
 label {
   display: block;
   font-size: 1rem;
-  color: purple;
+  color: var(--Dark-Purple);
   padding-top: .2rem;
 }
 h3 {
@@ -50,8 +67,8 @@ textarea {
   border-left-width: 5px;
   border-left-color:#555;
   font-size: 36px;
-  color: #3D405B;
-  width: 290px;
+  color: var(--Dark-Purple);
+  width: 250px;
 }
 
 input:required {border-left-color: #d70000;}
@@ -64,9 +81,9 @@ input[type=submit] {
   background-color: #3D405B;
   color: white;
   border-radius: 1rem;
-  padding: .75rem 1.5rem;
-  margin: 2rem 0;
-  font-size: 24px;
+  padding: .75rem 1rem;
+  margin: 1rem 0rem 0rem;
+  font-size: 22px;
   -webkit-appearance: none;
   appearance: none;
 }
@@ -75,7 +92,34 @@ input:-webkit-autofill{
   -webkit-text-fill-color: #3D405B;
 }
 
+#cards {
+  
+}
+
+#non-profit,
+#silver,
+#bronze,
+#gold {
+  border: 1px solid var(--Dark-Purple);
+  border-radius: 8px;
+  text-align: center;
+  margin: 1rem;
+  padding: 20px;
+  background-color: var(--Powder-Blue);
+  /* width: 280px;  */
+}
+
+#non-profit p,
+#silver p,
+#bronze p,
+#gold p {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}  
+
 #results {
+  grid-column: span 2;
   background-color: var(--Thistle);
   padding: 20px;
   margin: 1rem;
@@ -89,3 +133,13 @@ input:-webkit-autofill{
 #results p {
   padding: 6px;
 }
+
+/* @media only screen and (min-width: 40em) {
+  main {
+    grid-template-areas: 
+      "cards"
+      "form";
+    grid-template-columns: 1fr;
+  }
+} */
+ 
