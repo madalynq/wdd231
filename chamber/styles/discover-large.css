@@ -1,9 +1,4 @@
 @media only screen and (min-width: 38rem) {
-    header img {
-        width: 150px;
-        height: auto;
-        border-radius: 5px; 
-    }
 
     .business-card {
         grid-template-areas: 
@@ -21,7 +16,7 @@
     .hover:hover {box-shadow: 0 0 50px #333;}
 
     footer {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 

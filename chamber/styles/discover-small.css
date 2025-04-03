@@ -138,6 +138,10 @@ h1 {
     text-align: center;
 }
 
+.businesses {
+    min-height: 1600px;
+}
+
 .business-card {
     margin: 1rem 8px;
     border: 1px solid var(--Dark-Purple);
@@ -200,6 +204,7 @@ footer {
     padding: 2rem;
     color: #fff;
     text-decoration: none;
+    /* min-height: ; */
 }
 
 .socials img {
