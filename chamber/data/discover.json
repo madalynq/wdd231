@@ -15,7 +15,7 @@
         {
             "name" : "Treasure Valley Escape Rooms",
             "address" : "10529 West Overland Road, Boise, ID 83709",
-            "description" : "We create fully immersive experiences that are challenging, fun, and carefully crafted with strict attention to detail. We design and build all of our escape rooms in house, and our escape rooms have enough content for your entire team and are non-linear. This means everyone can split up and work on multiple elements while still communicating as a whole; we don't force everyone to stand over each other doing the same puzzle!",
+            "description" : "We create fully immersive experiences that are challenging, fun, and crafted with strict attention to detail. We design and build all of our escape rooms in house, and our escape rooms have enough content for your entire team and are non-linear. This means everyone can split up and work on multiple elements while still communicating as a whole.",
             "image" : "images/escape-room.webp"
         },
         {
@@ -33,14 +33,14 @@
         {
             "name" : "K1 Speed",
             "address" : "1135 N Hickory Ave Suite 100, Meridian, ID 83642",
-            "description" : "If you live in the Treasure Valley area, you're in for a treat! K1 Speed locations are world-class entertainment venues that are designed to keep you entertained and engaged, whether you're on or off the track. If you want to experience indoor karting yourself, are interested in hosting a fun and memorable party for a friend or loved one, or would like to plan a unique corporate function, we can help.",
+            "description" : "If you live in the Treasure Valley area, you're in for a treat! K1 Speed locations are world-class entertainment venues that are designed to keep you entertained and engaged, whether you're on or off the track.",
             "image" : "images/k1-speed.webp"
         },
         {
             "name" : "Children's Museum",
             "address" : "790 S Progress Ave, Meridian, ID 83642",
             "description" : "Children's Museum of Idaho is dedicated to bringing children, families, and the community together to engage in learning through creative play.",
-            "image" : "images/childrens-musuem.webp"
+            "image" : "images/childrens-museum.webp"
         },
         {
             "name" : "Independence Indoor Shooting",
@@ -51,7 +51,7 @@
         {
             "name" : "VR1 Arcade",
             "address" : "3131 E Lanark St, Meridian, Id 83642",
-            "description" : "24 VR Stations, 8 Gaming PCs, 12 Arcade cabinets featuring 80's to Modern games, two 10-player Killer Queen Cabinets, and a state-of-the-art 8-player VR Arena! We offer Birthday Parties, Family Night, Date Nights, or just casual single-player games! This is the modern-day Arcade. We also serve Adult Beverages, Burgers, Pizza and more! VR1 is bringing quality VR to everyone! Hurry, the future is waiting for you!",
+            "description" : "24 VR Stations, 8 Gaming PCs, 12 Arcade cabinets featuring 80's to Modern games, two 10-player Killer Queen Cabinets, and a state-of-the-art 8-player VR Arena! This is the modern-day Arcade. We also serve Adult Beverages, Burgers, Pizza and more! VR1 is bringing quality VR to everyone! Hurry, the future is waiting for you!",
             "image" : "images/vr1-arcade.webp"
         }
     ]

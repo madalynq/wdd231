@@ -1,0 +1,237 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Dark-Purple: rgb(23, 17, 35);
+    --Russian-Violet: rgb(55, 34, 72);
+    --Delft-Blue: rgb(65, 71, 112);
+    --Powder-Blue: rgb(160, 185, 207);
+    --Thistle: rgb(226, 207, 234);
+    font-family: Cinzel, Calibri, sans-serif;;
+}
+
+header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px 20px;
+    background-color: var(--Russian-Violet);
+}
+
+.head-content {
+    background-color: var(--Russian-Violet);
+    color: #eee;
+    text-align: center;
+    font-family: Happy Monkey, cursive, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: x-large;
+    gap: 10px;
+}
+
+.head-content .top {
+    align-items: center;
+    text-align: left;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: var(--Russian-Violet);
+	color: #000;
+    position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+.menu {
+	margin: 1rem auto;
+	border-radius: 8px;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.menu button {
+    border-radius: 8px;
+	padding: 1rem;
+	font-weight: 700;
+    font-family: Happy Monkey, cursive, Helvetica, sans-serif;
+}
+
+.menu button:hover {
+    background-color: var(--Thistle);
+}
+
+#menu::before {
+	content: "≡";
+    color: #fff;
+    font-size: 44px;
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+nav {
+	background-color: var(--Russian-Violet);
+    font-family: Happy Monkey, cursive, Helvetica, sans-serif;
+}
+.navigation {
+	list-style: none;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1.5rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover {
+	color: var(--Powder-Blue);
+	background-color: black;
+}
+
+.navigation a.active {
+    color: var(--Powder-Blue);
+    background-color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.navigation a.active::before {
+    margin-right: 8px;
+    color: var(--Powder-Blue);
+}
+
+.show li {
+	display: block;
+}
+
+h1 {
+    font-family: Happy Monkey, cursive, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.visit-message {
+    text-align: center;
+}
+
+.business-card {
+    margin: 1rem 8px;
+    border: 1px solid var(--Dark-Purple);
+    background-color: var(--Powder-Blue);
+    border-radius: 8px;
+    padding: 10px;
+    overflow: hidden;
+    min-width: 275px;
+    max-width: fit-content;
+
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "pic"
+    "description"
+    "location"
+    "button";
+}
+
+.business-card h2 {
+    margin: 1rem 10px;
+    grid-area: name;
+}
+
+.business-card p {
+    margin: 1rem 10px;
+    grid-area: description;
+    font-weight: bold;
+}
+
+.business-card img {
+    width: 100%;
+    border-radius: 8px;
+    grid-area: pic;
+}
+
+.business-card address {
+    margin: 1rem 10px;
+    grid-area: location;
+    font-weight: bold;
+}
+
+.business-card button {
+    margin: 1rem 10px;
+    grid-area: button;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: var(--Thistle);
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Happy Monkey, cursive, Helvetica, sans-serif;
+    background: var(--Russian-Violet);
+    padding: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.socials img {
+    width: 45px;
+    height: auto;
+    margin: 0 0.5rem;
+}
+
+.socials .contact .trademark {
+    flex: 1;
+    text-align: center;
+}
+
+@media only screen and (max-width: 20em) {
+    .head-content {
+        flex-direction: column;
+    }
+
+    header img {
+        width: 100px;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .socials {
+        justify-content: center;
+    }
+
+    
+}
