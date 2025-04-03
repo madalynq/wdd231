@@ -66,9 +66,9 @@ textarea {
   border-radius: 4px;
   border-left-width: 5px;
   border-left-color:#555;
-  font-size: 36px;
+  font-size: 20px;
   color: var(--Dark-Purple);
-  width: 250px;
+  width: 100%;
 }
 
 input:required {border-left-color: #d70000;}
@@ -136,22 +136,22 @@ input:-webkit-autofill{
 #gold {
   opacity: 0; 
   visibility: hidden; 
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-name: slide-in;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
 }
 
 #bronze {
-  animation-delay: 1s;
+  animation-delay: .5s;
 }
 
 #silver {
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 #gold {
-  animation-delay: 3s;
+  animation-delay: 1.5s;
 }
 
 @keyframes slide-in {
@@ -166,12 +166,36 @@ input:-webkit-autofill{
     visibility: visible;
   }
 }
-/* @media only screen and (min-width: 40em) {
+
+@media only screen and (max-width: 40em) { /* 40em = 640px */
   main {
+    display: grid;
     grid-template-areas: 
+      "header"
       "cards"
       "form";
     grid-template-columns: 1fr;
+  }
+
+  #cards {
+    grid-area: cards;
+  }
+
+  form {
+    grid-area: form;
+  }
+}
+
+/* @media only screen and (max-width: 40em) { 
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form, 
+  #cards {
+    width: 90%; 
   }
 } */
  
