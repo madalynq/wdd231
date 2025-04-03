@@ -130,6 +130,42 @@ input:-webkit-autofill{
   padding: 6px;
 }
 
+#non-profit,
+#bronze,
+#silver,
+#gold {
+  opacity: 0; 
+  visibility: hidden; 
+  animation-duration: 1.5s;
+  animation-name: slide-in;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+
+#bronze {
+  animation-delay: 1s;
+}
+
+#silver {
+  animation-delay: 2s;
+}
+
+#gold {
+  animation-delay: 3s;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(150vw) scaleX(2);
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    transform: translateX(0) scaleX(1);
+    opacity: 1;
+    visibility: visible;
+  }
+}
 /* @media only screen and (min-width: 40em) {
   main {
     grid-template-areas: 
