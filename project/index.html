@@ -6,6 +6,9 @@
     <title>Hooked Home Page</title>
     <meta name="author"  content="Madalyn Querubin">
     <meta name="description" content="Home page for crochet community to come together and share, learn, teach, and collaborate.">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/base-large.css" rel="stylesheet">
+    <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <link rel="icon" href="favicon.hooked.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,11 +40,11 @@
     <main>
         <h1>Home</h1>
         <section id="hero">
-            <img src="images/meridian-chamber-hero.webp" alt="hero-img" width="1100" height="300"  >
+            <img src="images/hero-img.webp" alt="hero-img" width="1100" height="300"  >
             <article class="hero-box">
                 <h2>Welcome!</h2>
-                <p>Hooked is a crochet community that keeps everyone stitched together.</p>
-                <p>Whether you're starting to learn, or looking for a challenge, we have a variety of projects for you to look through. Join us on our Current Project, and recieve updates as we progress through the project and finish our peices together.</p>
+                <p>Hooked is a crochet community that keeps everyone stitched together. Whether you're starting to learn, or looking for a challenge, we have a variety of projects for you to look through.</p>
+                <p>Join us on our Current Project, and recieve updates as we progress through the project and finish our pieces together.</p>
                 <div class="button">
                     <button id="beginner-btn">Beginner? Start Here</button>
                 </div>
@@ -49,6 +52,17 @@
                     <button id="current-proj-btn">Current Project</button>
                 </div>
             </article>
+        </section>
+        <section id="previous">
+            <img id="previous-proj" src="images/" alt="previous-project" width="" height="">
+            <h2>Previous Project</h2>
+        </section>
+        <section id="cheat-sheet">
+            <img id="cheat-sheet" src="images/" alt="cheat-sheet" width="" height="">
+            <h2>Symbol Cheat Sheets</h2>
+        </section>
+        <section id="random-project">
+            <h2>In the Spotlight</h2>
         </section>
     </main>
     <footer>

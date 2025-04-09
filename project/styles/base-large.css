@@ -1,0 +1,41 @@
+@media only screen and (min-width: 38rem) {
+
+  
+
+}
+
+@media only screen and (min-width: 64rem) { 
+    .head-content {
+        flex-direction: unset;
+    }
+
+    #menu {
+        display: none;
+    }
+
+	.navigation {
+		display: flex;
+        align-items: center;
+        justify-content: flex-end;
+	}
+
+	.navigation li {
+		display: block; 
+	}
+
+	.navigation a {
+		text-align: center;
+        color: #fff;
+        font-size: 26px;
+	}
+
+    .navigation a:active {
+        text-decoration: underline;
+        color: var(--Powder-Blue);
+        background-color: black;
+    }
+
+    nav {
+        justify-content: flex-end;
+    }
+} 
