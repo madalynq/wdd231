@@ -142,16 +142,6 @@ nav {
 	display: block;
 }
 
-#hero img {
-    width: 100%;
-    height: auto;
-}
-
-.hero-box {
-    position: relative;
-
-}
-
 main {
     background-color: var(--Champagne-pink);
 }

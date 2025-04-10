@@ -28,12 +28,12 @@
         color: #fff;
         font-size: 26px;
 	}
-
+/* 
     .navigation a:active {
         text-decoration: underline;
-        color: var(--Powder-Blue);
+        color: var(--);
         background-color: black;
-    }
+    } */
 
     nav {
         justify-content: flex-end;

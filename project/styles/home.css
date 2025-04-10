@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Umber: rgb(104, 80, 68);
+    --Melon: rgb(224, 175, 160);
+    --Champagne-pink: rgb(249, 222, 201);
+    --Cambridge-blue: rgb(119, 172, 162);
+    --Dark-slate-gray: rgb(49, 88, 94);
+    font-family: Ruluko, 'Times New Roman', Times, serif;
+}
+
+#hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.hero-box {
+    position: absolute;
+    left: 6rem;
+    top: 6rem;
+    right: 6rem;
+    border-radius: 8px;
+    background-color: rgba(249, 222, 201, 0.5);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.hero-box p {
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#hero-buttns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10rem;
+    margin: 1rem;
+}
+
+.button button {
+    padding: 0.75rem 1.25rem;
+    background-color: var(--Dark-slate-gray);
+    font-family: Ruluko, 'Times New Roman', Times, serif;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.button button:hover {
+    background-color: var(--Cambridge-blue);
+    color: black;
+}
+
+/* Mobile: stack .hero-box under the image */
+@media only screen and (max-width: 38rem) {
+    .hero-box {
+      position: static;         /* Let it flow normally in the document */
+      margin: 1rem;             /* Add spacing around the box */
+      left: auto;
+      top: auto;
+      right: auto;
+      background-color: rgba(249, 222, 201, 0.8); /* Slightly less transparent for readability */
+    }
+  
+    #hero-buttns {
+      flex-direction: column;  /* Stack buttons vertically */
+      gap: 1rem;
+    }
+  
+    .button button {
+      font-size: large;
+      width: 100%;
+      max-width: 300px;
+    }
+  }
