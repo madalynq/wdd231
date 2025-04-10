@@ -43,6 +43,12 @@ header {
     gap: 10px;
 }
 
+.head-content img {
+    border-radius: 8px;
+    width: 150px;
+    height: auto;
+}
+
 .head-content .top {
     align-items: center;
     text-align: left;
@@ -142,7 +148,17 @@ nav {
 	display: block;
 }
 
+html, body {
+    height: 100%;
+}
+  
+body {
+    display: flex;
+    flex-direction: column;
+}
+  
 main {
+    flex: 1;
     background-color: var(--Champagne-pink);
 }
 
@@ -157,7 +173,10 @@ h2 {
     font-family: sriracha;
     background-color: var(--Melon);
     padding-left: 5px;
+    border-radius: 8px;
 }
+
+
 
 footer {
     display: flex;
