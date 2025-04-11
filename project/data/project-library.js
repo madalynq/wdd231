@@ -1,4 +1,4 @@
-{
+export const projectFile = {
     "projects": [
         {
             "name": "Granny Square Blanket",
@@ -10,7 +10,7 @@
         },
         {
             "name": "Baby Booties",
-            "size": "E-4 (3.5 mm)",
+            "hook": "E-4 (3.5 mm)",
             "weight": "Sport/Baby/ Fine",
             "number": "2",
             "estimatedTotalWeight": "3",
@@ -18,7 +18,7 @@
         },
         {
             "name": "Amigurumi Bunny",
-            "size": "B-1 (2.25 mm)",
+            "hook": "B-1 (2.25 mm)",
             "weight": "Fingering/ Super Fine",
             "number": "1",
             "estimatedTotalWeight": "2",
@@ -26,7 +26,7 @@
         },
         {
             "name": "Chunky Scarf",
-            "size": "M/N-13 (9 mm)",
+            "hook": "M/N-13 (9 mm)",
             "weight": "Roving/ Super Bulky",
             "number": "6",
             "estimatedTotalWeight": "12",
@@ -34,7 +34,7 @@
         },
         {
             "name": "Dishcloth",
-            "size": "H-8 (5 mm)",
+            "hook": "H-8 (5 mm)",
             "weight": "Worsted/ Medium",
             "number": "4",
             "estimatedTotalWeight": "4",
@@ -42,7 +42,7 @@
         },
         {
             "name": "Summer Tank Top",
-            "size": "G-6 (4 mm)",
+            "hook": "G-6 (4 mm)",
             "weight": "DK/Light Worsted/ Light",
             "number": "3",
             "estimatedTotalWeight": "10",
@@ -50,7 +50,7 @@
         },
         {
             "name": "Lacy Shawl",
-            "size": "D-3 (3.25 mm)",
+            "hook": "D-3 (3.25 mm)",
             "weight": "Fingering/ Super Fine",
             "number": "1",
             "estimatedTotalWeight": "7",
@@ -58,7 +58,7 @@
         },
         {
             "name": "Market Bag",
-            "size": "H-8 (5 mm)",
+            "hook": "H-8 (5 mm)",
             "weight": "Worsted/ Medium",
             "number": "4",
             "estimatedTotalWeight": "6",
@@ -66,7 +66,7 @@
         },
         {
             "name": "Fingerless Gloves",
-            "size": "F-5 (3.75 mm)",
+            "hook": "F-5 (3.75 mm)",
             "weight": "DK/Light Worsted/ Light",
             "number": "3",
             "estimatedTotalWeight": "4",
@@ -74,7 +74,7 @@
         },
         {
             "name": "Beanie Hat",
-            "size": "H-8 (5 mm)",
+            "hook": "H-8 (5 mm)",
             "weight": "Worsted/ Medium",
             "number": "4",
             "estimatedTotalWeight": "5",
@@ -82,7 +82,7 @@
         },
         {
             "name": "Crochet Socks",
-            "size": "C-2 (2.75 mm)",
+            "hook": "C-2 (2.75 mm)",
             "weight": "Fingering/ Super Fine",
             "number": "1",
             "estimatedTotalWeight": "3.5",
@@ -90,7 +90,7 @@
         },
         {
             "name": "Plush Pillow",
-            "size": "K-10.5 (6.5 mm)",
+            "hook": "K-10.5 (6.5 mm)",
             "weight": "Chunky/Craft/ Bulky",
             "number": "5",
             "estimatedTotalWeight": "16",
@@ -98,7 +98,7 @@
         },
         {
             "name": "Tote Bag",
-            "size": "J-10 (6 mm)",
+            "hook": "J-10 (6 mm)",
             "weight": "Worsted/ Medium",
             "number": "4",
             "estimatedTotalWeight": "10",
@@ -106,7 +106,7 @@
         },
         {
             "name": "Crop Top",
-            "size": "G-6 (4 mm)",
+            "hook": "G-6 (4 mm)",
             "weight": "Sport/Baby/ Fine",
             "number": "2",
             "estimatedTotalWeight": "8",
@@ -114,7 +114,7 @@
         },
         {
             "name": "Sun Hat",
-            "size": "E-4 (3.5 mm)",
+            "hook": "E-4 (3.5 mm)",
             "weight": "DK/Light Worsted/ Light",
             "number": "3",
             "estimatedTotalWeight": "4.5",
@@ -122,7 +122,7 @@
         },
         {
             "name": "Christmas Ornament",
-            "size": "C-2 (2.75 mm)",
+            "hook": "C-2 (2.75 mm)",
             "weight": "Sport/Baby/ Fine",
             "number": "2",
             "estimatedTotalWeight": "1",
@@ -130,7 +130,7 @@
         },
         {
             "name": "Dog Sweater",
-            "size": "H-8 (5 mm)",
+            "hook": "H-8 (5 mm)",
             "weight": "Worsted/ Medium",
             "number": "4",
             "estimatedTotalWeight": "7",
@@ -138,7 +138,7 @@
         },
         {
             "name": "Mug Cozy",
-            "size": "G-6 (4 mm)",
+            "hook": "G-6 (4 mm)",
             "weight": "Worsted/ Medium",
             "number": "4",
             "estimatedTotalWeight": "1.5",
@@ -146,7 +146,7 @@
         },
         {
             "name": "Table Runner",
-            "size": "E-4 (3.5 mm)",
+            "hook": "E-4 (3.5 mm)",
             "weight": "DK/Light Worsted/ Light",
             "number": "3",
             "estimatedTotalWeight": "6",
@@ -154,7 +154,7 @@
         },
         {
             "name": "Wall Hanging",
-            "size": "N/P-15 (10 mm)",
+            "hook": "N/P-15 (10 mm)",
             "weight": "Roving/ Super Bulky",
             "number": "6",
             "estimatedTotalWeight": "10",
@@ -162,7 +162,7 @@
         },
         {
             "name": "Stuffed Animal",
-            "size": "D-3 (3.25 mm)",
+            "hook": "D-3 (3.25 mm)",
             "weight": "Sport/Baby/ Fine",
             "number": "2",
             "estimatedTotalWeight": "5",
@@ -170,7 +170,7 @@
         },
         {
             "name": "Hexagon Blanket",
-            "size": "J-10 (6 mm)",
+            "hook": "J-10 (6 mm)",
             "weight": "Worsted/ Medium",
             "number": "4",
             "estimatedTotalWeight": "30",
@@ -178,7 +178,7 @@
         },
         {
             "name": "Leg Warmers",
-            "size": "I-9 (5.5 mm)",
+            "hook": "I-9 (5.5 mm)",
             "weight": "Worsted/ Medium",
             "number": "4",
             "estimatedTotalWeight": "8",
@@ -186,7 +186,7 @@
         },
         {
             "name": "Shower Pouf",
-            "size": "N/P-15 (10 mm)",
+            "hook": "N/P-15 (10 mm)",
             "weight": "Chunky/Craft/ Bulky",
             "number": "5",
             "estimatedTotalWeight": "6",
@@ -194,7 +194,7 @@
         },
         {
             "name": "Bookmark",
-            "size": "B-1 (2.25 mm)",
+            "hook": "B-1 (2.25 mm)",
             "weight": "Fingering/ Super Fine",
             "number": "1",
             "estimatedTotalWeight": "0.5",
@@ -202,7 +202,7 @@
         },
         {
             "name": "Crochet Earrings",
-            "size": "C-2 (2.75 mm)",
+            "hook": "C-2 (2.75 mm)",
             "weight": "Thread/ Lace",
             "number": "0",
             "estimatedTotalWeight": "0.3",
@@ -210,7 +210,7 @@
         },
         {
             "name": "Infinity Scarf",
-            "size": "K-10.5 (6.5 mm)",
+            "hook": "K-10.5 (6.5 mm)",
             "weight": "Chunky/Craft/ Bulky",
             "number": "5",
             "estimatedTotalWeight": "9",
@@ -218,7 +218,7 @@
         },
         {
             "name": "Sweater",
-            "size": "I-9 (5.5 mm)",
+            "hook": "I-9 (5.5 mm)",
             "weight": "DK/Light Worsted/ Light",
             "number": "3",
             "estimatedTotalWeight": "18",
@@ -226,7 +226,7 @@
         },
         {
             "name": "Plant Hanger",
-            "size": "J-10 (6 mm)",
+            "hook": "J-10 (6 mm)",
             "weight": "Worsted/ Medium",
             "number": "4",
             "estimatedTotalWeight": "6",
@@ -234,7 +234,7 @@
         },
         {
             "name": "Laptop Sleeve",
-            "size": "H-8 (5 mm)",
+            "hook": "H-8 (5 mm)",
             "weight": "Worsted/ Medium",
             "number": "4",
             "estimatedTotalWeight": "7",
