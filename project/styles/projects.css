@@ -17,6 +17,12 @@
     border: 1px solid var(--Cambridge-blue)
 }
 
+.visit-message {
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
 h2{
     background-color: var(--Cambridge-blue);
 }
