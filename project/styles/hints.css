@@ -1,3 +1,17 @@
+
+:root {
+    --Umber: rgb(104, 80, 68);
+    --Melon: rgb(224, 175, 160);
+    --Champagne-pink: rgb(249, 222, 201);
+    --Cambridge-blue: rgb(119, 172, 162);
+    --Dark-slate-gray: rgb(49, 88, 94);
+    font-family: Ruluko, 'Times New Roman', Times, serif;
+}
+
+img {
+    margin: 1rem;
+}
+
 .accordion-toggle {
     background-color: #f2f2f2;
     border: none;
@@ -29,4 +43,54 @@
 
   .accordion-toggle.active {
     background-color: #ddd;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--Cambridge-blue); 
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+  
+.download-btn:hover {
+    background-color: var(--Melon); 
+    transform: scale(1.05);
+    color:black; 
+}
+
+.download-btn:active {
+    background-color: var(--Dark-slate-gray); 
+}
+
+.hints-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 2rem;
+    align-items: start;
+    margin: 2rem 0;
+  }
+  
+ 
+  .ref-sheet img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .hints-layout {
+      display: block;
+    }
+  
+    .ref-sheet,
+    .crochet-abbreviations {
+      margin-bottom: 2rem;
+    }
   }
