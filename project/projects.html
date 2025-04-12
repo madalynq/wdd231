@@ -8,6 +8,8 @@
     <meta name="description" content="Projects page, a place to find a variety of projects and details on how to get started">
     <link href="styles/base.css" rel="stylesheet">
     <link href="styles/base-large.css" rel="stylesheet">
+    <link href="styles/projects.css" rel="stylesheet">
+    <script src="scripts/navigation.js" defer></script>
     <script type="module" src="scripts/projects.js"></script>
     <script src="scripts/date.js" defer></script>
     <link rel="icon" href="favicon.hooked.ico">
@@ -41,6 +43,9 @@
         <h1>Projects</h1>
         <input type="text" id="timestamp" name="timestamp" aria-hidden="true" hidden>
         <section class="project-cards"></section>
+        <div id="modal">
+            <div class="modal-content"></div>
+        </div>
     </main>
     <footer>
         <div class="socials">

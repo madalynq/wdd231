@@ -1,3 +1,5 @@
+import { openModal } from './projects.js';
+
 export function displayProjects(projects) {
     const cards = document.querySelector('.project-cards');
     cards.innerHTML = "";
@@ -14,10 +16,10 @@ export function displayProjects(projects) {
         let button = document.createElement('button');
 
         name.textContent = project.name;
-        hook.textContent = `Hook: ${project.hook}`;
-        yarnWeight.textContent = `Yarn weight: ${project.weight}`;
-        yarnNumber.textContent = `Yarn number: ${project.number}`;
-        estimatedWeight.textContent = project.estimatedTotalWeight;
+        hook.innerHTML = `<span class="label">Hook:</span> <span class="value">${project.hook}</span>`;
+        yarnWeight.innerHTML = `<span class="label">Yarn Weight:</span> <span class="value">${project.weight}</span>`;
+        yarnNumber.innerHTML = `<span class="label">Yarn #:</span> <span class="value">${project.number}</span>`;
+        estimatedWeight.innerHTML = `<span class="label">Estimated Weight Needed:</span> <span class="value">${project.estimatedTotalWeight} ounces</span>`;
         card.setAttribute('class', 'single-project');
         pic.setAttribute('src', project.image);
         pic.setAttribute('alt', `${project.name} image`);
@@ -27,6 +29,9 @@ export function displayProjects(projects) {
         pic.setAttribute('class', 'hover');
         figure.appendChild(pic);
         button.textContent = "Learn More";
+        button.addEventListener('click', () => {
+            openModal(project);
+        });
 
         card.appendChild(name);
         card.appendChild(pic);
